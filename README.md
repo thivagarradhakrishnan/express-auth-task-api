@@ -35,6 +35,7 @@ It supports **JWT-based login/registration using phone number only** and allows 
 ### 1. Clone the Repository
 
 ```bash
+
 git clone https://github.com/your-username/express-auth-task-api.git
 cd express-auth-task-api
 # 📱 Task Auth API — Node.js + MongoDB
@@ -77,12 +78,13 @@ A clean, modern REST API built using **Express.js** and **MongoDB** that allows 
 
 ---
 
-## 📦 Getting Started
+### 📦 Getting Started
 
-### 1. Clone the Repository
+#### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/thivagarradhakrishnan/express-auth-task-api.git
+cd express-auth-task-api
+
 
 
 2. Install Dependencies
@@ -100,8 +102,14 @@ JWT_SECRET=your_jwt_secret
 
 mongod
 
+5. Run the Server
+
+node server.js
+
+
 The API will be running at:
 http://localhost:5000
+
 
 🧪 Postman Collection
 A Postman collection is available for testing all endpoints.
